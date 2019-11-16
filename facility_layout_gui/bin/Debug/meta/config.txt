@@ -1,0 +1,26 @@
+# "alpha" controls the importance of "area".
+# "beta" controls the importance of "pipe length".
+# "gamma" controls the importance of "wind rules".
+alpha 1.0
+beta 1.0
+gamma 1.0
+
+# "restarts" mainly controls running time.
+# If restarts = 1, then the program will totally evolve 2 runs
+#                  and yield 2 layouts (1 layouts for each run).
+# Normally, 10 or more is suggested.
+restarts 9
+
+# "popsize" controls computational resources consumption.
+# The more difficult the problem is, the larger the "popsize" should be.
+# Normally, 1000 is suggested.
+popsize 2000
+
+# "resolution" is used to align modules.
+# Examples:
+#  2: any values less than 10^-2 will be discarded.
+#  1: any values less than 10^-1 will be discarded.
+#  0: any values less than 10^0 will be discarded.
+# -1: any values less than 10^1 will be discarded.
+# -2: any values less than 10^2 will be discarded.
+resolution 0
