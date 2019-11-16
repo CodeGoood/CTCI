@@ -5,13 +5,13 @@ The following animate is the appearance of the interface.
 ![image](https://github.com/CodeGoood/Facility_layout/blob/master/CMAES_GUI.gif)
 
 ## Arguments Setting
-#### There are some arguments you need to input before starting the opitmization.
-**Popluation size** denotes the number of indivisual in CMA-ES.  
-**Generation** denotes the critiria of this optimization.  
-**Alpha, Beta, and Gamma** denote the parameters in CMA-ES.  
+#### There are some arguments you need to input before starting the optimization.
+**Population size** denotes the number of individuals in CMA-ES.
+**Generation** denotes the criteria of this optimization.
+**Alpha, Beta, and Gamma** denote the parameters in CMA-ES.
 
 ## Anytime Behavior
-This part will present the generation and the corresponding fitness in a real-time chart.
+The chart presents the generation and the corresponding fitness in real-time.
 
 ## Canvas
 #### The right canvas shows the facility layout at every generation
